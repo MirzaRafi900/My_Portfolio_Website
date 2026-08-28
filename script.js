@@ -2,7 +2,7 @@
   "use strict";
 
   /** Academic inbox used by the contact form (mailto). */
-  const CONTACT_EMAIL = "your.email@university.edu";
+  const CONTACT_EMAIL = "mirzajubairrafi@gmail.com";
 
   const TAGLINE =
     "Machine Learning • Data Analytics • Forecasting Research • AI Systems";
@@ -16,7 +16,7 @@
   initTypedTagline();
   initReveal();
   initActiveSection();
-  initContactForm();
+  //initContactForm();
   initLabGrid();
 
   function initNav() {
