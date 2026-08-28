@@ -117,6 +117,8 @@
     sections.forEach((section) => observer.observe(section));
   }
 
+/*
+
   function initContactForm() {
     const form = document.getElementById("contact-form");
     const status = document.getElementById("form-status");
@@ -150,7 +152,8 @@
       status.textContent = "Opening your email client…";
     });
   }
-
+    
+*/
   function initLabGrid() {
     const canvas = document.getElementById("lab-grid");
     if (!canvas || !(canvas instanceof HTMLCanvasElement)) return;
